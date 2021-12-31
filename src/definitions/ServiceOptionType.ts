@@ -1,0 +1,1 @@
+export type ServiceOptionType = 'cod'|'signature'|'adult_signature'|'indirect_signature'|'saturday_delivery'|'paperless_invoice'|'insurance'|'hold_for_pickup'|'pickup'|'rural_delivery'|'sameday_evening_delivery'|'overnight_evening_delivery'|'dangerous_goods'|'ppod'|'appointment'|'date_certain'|'evening'|'dry_ice'|'alcohol';
