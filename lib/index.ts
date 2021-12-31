@@ -1,30 +1,30 @@
-import axios, { AxiosError, AxiosInstance, AxiosResponse } from 'axios';
 
-export default class PostmenService {
-    protected axios = axios.create() as AxiosInstance;
-    constructor(config:any) {
+   
+// Type definitions for Postmen API
+// Project: https://docs.postmen.com
+// Definitions by: Austin Kloske <https://github.com/austinkloske22>
 
-        this.axios = axios.create({baseURL : config.url});
-        this.axios.defaults.headers.common['Content-Type'] = 'application/json';
-        this.axios.defaults.headers.common['postmen-api-key'] = config.apiKey;
-
-        this.axios.defaults.validateStatus = (status) => {
-            return status === 200;
-        };
-         // Axios Interceptor
-		this.axios.interceptors.request.use(request => {
-			return request;
-		});
-
-        function onFullilled(response: AxiosResponse): any {
-            if (response.data.meta.code !== 200) {
-            }
-            return response;
-        };
-        function onRejected(error: AxiosError): any {
-            console.log(error.message)
-        };
-
-        this.axios.interceptors.response.use(onFullilled, onRejected);
-    }
-}
+export * from "./definitions/Address";
+export * from "./definitions/BaseResponse";
+export * from "./definitions/Billing";
+export * from "./definitions/CalculateRatesResponse"; 
+export * from "./definitions/Customs"; 
+export * from "./definitions/DetailedCharge";
+export * from "./definitions/Dimension"; 
+export * from "./definitions/Invoice"; 
+export * from "./definitions/Item"; 
+export * from "./definitions/LabelRequest"; 
+export * from "./definitions/Money"; 
+export * from "./definitions/Parcel"; 
+export * from "./definitions/Rate"; 
+export * from "./definitions/RateType"; 
+export * from "./definitions/Reference"; 
+export * from "./definitions/ReturnToAddress"; 
+export * from "./definitions/ServiceOption"; 
+export * from "./definitions/ServiceOptionDeliveryConfirmation"; 
+export * from "./definitions/ServiceOptionInsurance"; 
+export * from "./definitions/Shipment"; 
+export * from "./definitions/ShipperAccount"; 
+export * from "./definitions/ShipperAccountsResponse"; 
+export * from "./definitions/Weight";
+export * from "./definitions/Common";
