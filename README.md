@@ -1,8 +1,8 @@
 # postmen-ts
 
-[![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/axios)
-[![install size](https://packagephobia.now.sh/badge?p=axios)](https://packagephobia.now.sh/result?p=axios)
-[![npm downloads](https://img.shields.io/npm/dm/axios.svg?style=flat-square)](http://npm-stat.com/charts.html?package=axios)
+[![npm version](https://img.shields.io/npm/v/postmen-ts.svg?style=flat-square)](https://www.npmjs.org/package/postmen-ts)
+[![install size](https://packagephobia.now.sh/badge?p=postmen-ts)](https://packagephobia.now.sh/result?p=postmen-ts)
+[![npm downloads](https://img.shields.io/npm/dm/postmen-ts.svg?style=flat-square)](http://npm-stat.com/charts.html?package=postmen-ts)
 
 
 Postmen types for third-party use

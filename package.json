@@ -1,6 +1,6 @@
 {
   "name": "postmen-ts",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Typescript Postmen Wrapper",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,9 +23,6 @@
     "url": "https://github.com/austinkloske22/postmen/issues"
   },
   "homepage": "https://github.com/austinkloske22/postmen#readme",
-  "dependencies": {
-    "axios": "^0.21.4"
-  },
   "devDependencies": {
     "typescript": "^4.5.4"
   }
