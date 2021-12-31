@@ -17,6 +17,7 @@ __exportStar(require("./definitions/Address"), exports);
 __exportStar(require("./definitions/BaseResponse"), exports);
 __exportStar(require("./definitions/Billing"), exports);
 __exportStar(require("./definitions/CalculateRatesResponse"), exports);
+__exportStar(require("./definitions/CalculateRatesRequest"), exports);
 __exportStar(require("./definitions/Customs"), exports);
 __exportStar(require("./definitions/DetailedCharge"), exports);
 __exportStar(require("./definitions/Dimension"), exports);

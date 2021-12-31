@@ -1,6 +1,6 @@
 {
   "name": "postmen-ts",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Typescript Postmen Wrapper",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

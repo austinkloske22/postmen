@@ -8,6 +8,7 @@ export * from "./definitions/Address";
 export * from "./definitions/BaseResponse";
 export * from "./definitions/Billing";
 export * from "./definitions/CalculateRatesResponse"; 
+export * from "./definitions/CalculateRatesRequest";
 export * from "./definitions/Customs"; 
 export * from "./definitions/DetailedCharge";
 export * from "./definitions/Dimension"; 
