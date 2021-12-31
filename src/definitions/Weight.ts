@@ -1,6 +1,6 @@
-import { Postmen } from "./Common";
+import { Common } from "./Common";
 
 export interface Weight  {
-    unit: Postmen.WeightUnit,
+    unit: Common.WeightUnit,
     value: number
 };

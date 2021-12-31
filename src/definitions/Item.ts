@@ -1,4 +1,4 @@
-import { Postmen } from "./Common";
+import { Common } from "./Common";
 import { Money } from "./Money";
 import { Weight } from "./Weight";
 
@@ -7,7 +7,7 @@ export interface Item  {
     quantity: number,
     price: Money,
     item_id: string,
-    origin_country: Postmen.Country,
+    origin_country: Common.Country,
     weight: Weight,
     sku: string,
     hs_code: string

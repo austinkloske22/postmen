@@ -1,5 +1,5 @@
-import { Postmen } from "./Common";
+import { Common } from "./Common";
 export interface Money  {
     amount: number,
-    currency: Postmen.Currency
+    currency: Common.Currency
 };

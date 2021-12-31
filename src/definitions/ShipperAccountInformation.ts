@@ -1,7 +1,7 @@
-import { Postmen } from "./Common";
+import { Common } from "./Common";
 
 export interface ShipperAccountInformation  {
     id: string,
-    slug: Postmen.Slug,
+    slug: Common.Slug,
     description: string
 };
