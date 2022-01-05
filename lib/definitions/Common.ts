@@ -6,17 +6,8 @@ export namespace Common {
     export type BoxType = 'custom'|'ups_10kg_box'|'ups_25kg_box'|'ups_bpm'|'ups_bpm_flat'|'ups_bpm_parcel'|'ups_express_box'|'ups_first_class'|'ups_flats'|'ups_irregulars'|'ups_large_express_box'|'ups_letter'|'ups_machinables'|'ups_media_mail'|'ups_medium_express_box'|'ups_pak'|'ups_parcel_post'|'ups_parcels'|'ups_priority'|'ups_small_express_box'|'ups_standard_flat'|'ups_tube'
     export type Currency = 'USD';
     export type Status = 'calculating'|'calculated'|'failed';
-    export type Slug = 'apc-overnight'|'aramex'|'asendia-de'|'asendia-hk'|'australia-post'|'bluedart'|'bondscouriers'|'bpost-international'|'bpost'|'bring'|'canada-post'|'canpar'|'collectplus'|'courex'|'couriers-please'|'china-post'|'delhivery'|'dhl-discounted'|'dhl-germany'|'dhl-global-mail-asia'|'dhl'|'dotzot'|'dpd-be'|'dpd-nl'|'dpd-uk'|'dpd'|'dpex'|'dtdc'|'endicia'|'fastway-au'|'fedex-smartpost'|'fedex'|'global-express'|'gls-ireland'|'grab'|'hermes'|'hong-kong-post'|'landmark-global'|'malaysia-post'|'mondialrelay'|'new-zealand-post'|'newgistics'|'nightline'|'ninjavan'|'omniparcel'|'ontrac'|'parcelled-in'|'pitney-bowes'|'purolator'|'quantium'|'royal-mail'|'sendle'|'sf-express-ibs'|'sf-express-isp'|'sf-express'|'sfb2c'|'skynetworldwide'|'spain-correos-es'|'spanish-seur'|'spsr'|'star-track'|'taqbin-hk'|'taqbin-jp'|'tipsa'|'tnt'|'usps-discounted'|'usps'|'whistl'|'yodel'|'yunexpress'|'swiss-post'|'kerry-express-th'|'gojek'|'parcll'|'dhl-global-mail'|'chronopost-france'|'toll-priority'|'b2ceurope';
-    export enum Endpoint {
-        Rates = '/rates',
-        ShipperAccounts = '/shipper-accounts'
-      };
+    export type Slug = 'apc-overnight'|'aramex'|'asendia-de'|'asendia-hk'|'australia-post'|'bluedart'|'bondscouriers'|'bpost-international'|'bpost'|'bring'|'canada-post'|'canpar'|'collectplus'|'courex'|'couriers-please'|'china-post'|'delhivery'|'dhl-discounted'|'dhl-germany'|'dhl-global-mail-asia'|'dhl'|'dotzot'|'dpd-be'|'dpd-nl'|'dpd-uk'|'dpd'|'dpex'|'dtdc'|'endicia'|'fastway-au'|'fedex-smartpost'|'fedex'|'global-express'|'gls-ireland'|'grab'|'hermes'|'hong-kong-post'|'landmark-global'|'malaysia-post'|'mondialrelay'|'new-zealand-post'|'newgistics'|'nightline'|'ninjavan'|'omniparcel'|'ontrac'|'parcelled-in'|'pitney-bowes'|'purolator'|'quantium'|'royal-mail'|'sendle'|'sf-express-ibs'|'sf-express-isp'|'sf-express'|'sfb2c'|'skynetworldwide'|'spain-correos-es'|'spanish-seur'|'spsr'|'star-track'|'taqbin-hk'|'taqbin-jp'|'tipsa'|'tnt'|'usps-discounted'|'usps'|'whistl'|'yodel'|'yunexpress'|'swiss-post'|'kerry-express-th'|'gojek'|'parcll'|'dhl-global-mail'|'chronopost-france'|'toll-priority'|'b2ceurope';    
     export type PaperSize = '4x4'|'4x6'|'4x6.75'|'4x8'|'a4'|'default';
     export type MediaType = 'pdf'|'zpl';
 
-    export enum ChargeType {
-      Base = 'base',
-      Weight = 'additional_handling_surcharge_-_weight',
-      Fuel = 'fuel'
-    }
 };
