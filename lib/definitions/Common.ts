@@ -17,6 +17,6 @@ export namespace Common {
     export enum ChargeType {
       Base = 'base',
       Weight = 'additional_handling_surcharge_-_weight',
-      Fule = 'fuel'
+      Fuel = 'fuel'
     }
 };
