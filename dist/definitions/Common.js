@@ -9,5 +9,11 @@ var Common;
         Endpoint["ShipperAccounts"] = "/shipper-accounts";
     })(Endpoint = Common.Endpoint || (Common.Endpoint = {}));
     ;
+    let ChargeType;
+    (function (ChargeType) {
+        ChargeType["Base"] = "base";
+        ChargeType["Weight"] = "additional_handling_surcharge_-_weight";
+        ChargeType["Fuel"] = "fuel";
+    })(ChargeType = Common.ChargeType || (Common.ChargeType = {}));
 })(Common = exports.Common || (exports.Common = {}));
 ;

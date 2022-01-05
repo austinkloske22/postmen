@@ -10,4 +10,15 @@ export namespace Common {
     export type PaperSize = '4x4'|'4x6'|'4x6.75'|'4x8'|'a4'|'default';
     export type MediaType = 'pdf'|'zpl';
 
+    export enum Endpoint {
+      Rates = '/rates',
+      ShipperAccounts = '/shipper-accounts'
+    };
+    
+    export enum ChargeType {
+        Base = 'base',
+        Weight = 'additional_handling_surcharge_-_weight',
+        Fuel = 'fuel'
+    }
+  
 };

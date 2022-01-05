@@ -7,10 +7,15 @@ export declare namespace Common {
     type Currency = 'USD';
     type Status = 'calculating' | 'calculated' | 'failed';
     type Slug = 'apc-overnight' | 'aramex' | 'asendia-de' | 'asendia-hk' | 'australia-post' | 'bluedart' | 'bondscouriers' | 'bpost-international' | 'bpost' | 'bring' | 'canada-post' | 'canpar' | 'collectplus' | 'courex' | 'couriers-please' | 'china-post' | 'delhivery' | 'dhl-discounted' | 'dhl-germany' | 'dhl-global-mail-asia' | 'dhl' | 'dotzot' | 'dpd-be' | 'dpd-nl' | 'dpd-uk' | 'dpd' | 'dpex' | 'dtdc' | 'endicia' | 'fastway-au' | 'fedex-smartpost' | 'fedex' | 'global-express' | 'gls-ireland' | 'grab' | 'hermes' | 'hong-kong-post' | 'landmark-global' | 'malaysia-post' | 'mondialrelay' | 'new-zealand-post' | 'newgistics' | 'nightline' | 'ninjavan' | 'omniparcel' | 'ontrac' | 'parcelled-in' | 'pitney-bowes' | 'purolator' | 'quantium' | 'royal-mail' | 'sendle' | 'sf-express-ibs' | 'sf-express-isp' | 'sf-express' | 'sfb2c' | 'skynetworldwide' | 'spain-correos-es' | 'spanish-seur' | 'spsr' | 'star-track' | 'taqbin-hk' | 'taqbin-jp' | 'tipsa' | 'tnt' | 'usps-discounted' | 'usps' | 'whistl' | 'yodel' | 'yunexpress' | 'swiss-post' | 'kerry-express-th' | 'gojek' | 'parcll' | 'dhl-global-mail' | 'chronopost-france' | 'toll-priority' | 'b2ceurope';
+    type PaperSize = '4x4' | '4x6' | '4x6.75' | '4x8' | 'a4' | 'default';
+    type MediaType = 'pdf' | 'zpl';
     enum Endpoint {
         Rates = "/rates",
         ShipperAccounts = "/shipper-accounts"
     }
-    type PaperSize = '4x4' | '4x6' | '4x6.75' | '4x8' | 'a4' | 'default';
-    type MediaType = 'pdf' | 'zpl';
+    enum ChargeType {
+        Base = "base",
+        Weight = "additional_handling_surcharge_-_weight",
+        Fuel = "fuel"
+    }
 }

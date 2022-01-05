@@ -29,4 +29,3 @@ export * from "./definitions/ShipperAccount";
 export * from "./definitions/ShipperAccountsResponse"; 
 export * from "./definitions/Weight";
 export * from "./definitions/Common";
-export * from "./definitions/Constants";
